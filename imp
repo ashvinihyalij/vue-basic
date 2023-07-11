@@ -1,0 +1,20 @@
+shorthands
+const person = {
+    name: 'Ashvini',
+    data: function(){
+
+    }
+    shorthand for this is
+    data(){
+        
+    }
+}
+
+vue
+v-on ==> @
+<button v-on:click="add(5)">Add 5</button>
+<button @click="add(5)">Add 5</button>
+
+v-bind:value="name" ====> :value="name"
+<input type="text" v-bind:value="name">
+<input type="text" :value="name">
